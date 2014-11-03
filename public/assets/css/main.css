@@ -1,0 +1,83 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+div#game_over { display: none; }
+div#game_complete { display: none; }
+.invisible { display: hidden; }
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+span.letter {
+    display: inline-block;
+    border-bottom: 1px solid blue;
+    font-size: 40px;
+    text-transform: uppercase;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 4px;
+}
+
+div#hangman_feedback {
+    margin: 20px 0 0 0;
+}
+
+div#hangman_feedback img {
+    height: 120px;
+}
+
+div#game_word {
+    margin: 50px 0 20px 0;
+}
+
+div#character_selection {
+    margin: 20px 0;
+}
+
+div#character_selection span.letter {
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    font-size: 20px;
+    outline: 1px solid red;
+    border: none;
+}
+
+span.letter a {
+    color: #000;
+}
+
+span.letter a:hover{
+    text-decoration: none;
+}
+
+.used {
+    color: #CCC;
+    opacity: 0.2;
+    cursor:not-allowed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
